@@ -2,15 +2,11 @@
 Input: a List of integers
 Returns: a List of integers
 '''
+
+
 def moving_zeroes(arr):
     # Your code here
-    for i in arr:
-        cur_index = i
-        for j in range(i + 1, len(arr)):
-            if arr[j] != 0:
-                arr[i], arr[j] = arr[j], arr[i]
-    return arr
-            
+    pass
 
 
 if __name__ == '__main__':
