@@ -23,3 +23,10 @@ Run the test file by executing `python test_moving_zeroes.py`.
 You can also test your implementation manually by executing `python moving_zeroes.py [integers_separated_by_a_single_space]`.
 
 
+## Brainstorming
+iterate through array
+if index != 0, move it to the left
+maybe selection sort? iterate through length of array, if current index is not 0, swap it with the element to its left
+
+no, swapping doesn't work
+use count
