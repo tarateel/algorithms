@@ -27,3 +27,6 @@ You can also test your implementation manually by executing `python moving_zeroe
 iterate through array
 if index != 0, move it to the left
 maybe selection sort? iterate through length of array, if current index is not 0, swap it with the element to its left
+
+no, swapping doesn't work
+use count
